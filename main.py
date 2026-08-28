@@ -3,10 +3,17 @@ from pathlib import Path
 
 # App Store Connect accepted dimensions
 ACCEPTED_DIMENSIONS = [
+    # iphone 6.5 pol
     (1242, 2688),
     (2688, 1242),
     (1284, 2778),
     (2778, 1284),
+
+    # ipad 13 pol
+    (2064, 2752),
+    (2752, 2064),
+    (2048, 2732),
+    (2732, 2048),
 ]
 
 SUPPORTED_EXTENSIONS = {".png", ".jpg", ".jpeg", ".webp"}
